@@ -1,0 +1,48 @@
+// Arithmetic Operators Define in Short.  
+// Arithmetic operators are used to perform arithmetic on numbers (literals or variables).
+
+// example of arithmatic operators in JavaScript:
+
+
+//Arithmatic Operators symbols Table format explain 
+
+let a = 10;
+let b = 5;
+
+// Addition (+)
+let sum = a + b; 
+// Subtraction (-)
+let difference = a - b;
+// Multiplication (*)
+let product = a * b;
+// Division (/)
+let Division = a / b;
+
+console.log(sum); // Output: 15
+console.log(difference); // Output: 5
+console.log(product); // Output: 50
+console.log(Division); // Output: 2
+
+
+// Example 1: Single operator arithmatic operation
+let x = 10; 
+
+// Example 2: Addition arithmetic operator
+let y = 5;
+y += 3; 
+console.log(y); // Output: 8
+
+// Example 3: Subtraction arithmetic operator
+let z = 10;
+z -= 4; 
+console.log(z); // Output: 6    
+
+// Example 4: Multiplication arithmetic operator
+let m = 6;
+m *= 2; 
+console.log(m); // Output: 12
+
+// Example 5: Division arithmetic operator
+let n = 20;
+n /= 4; 
+console.log(n); // Output: 5
