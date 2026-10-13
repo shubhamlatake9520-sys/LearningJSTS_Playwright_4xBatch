@@ -74,6 +74,12 @@ JavaScript operator examples:
 - `22_Comparison_Op.js` covers comparison operators.
 - `23_logical_Op.js` covers logical operators (`&&`, `||`, `!`).
 - `24_Confusion_Op.js` demonstrates equality coercion confusions (`"" === 0`, `"0" === 0`).
+- `26_Questions_0p.js` contrasts loose (`!=`) and strict (`!==`) inequality.
+- `27_String.js` shows string concatenation with `+=` and `+`.
+- `28_Ternary_Op.js` introduces the ternary operator (`condition ? a : b`).
+- `29_T_API_Op.js` uses a ternary to derive a PASS/FAIL API test result.
+- `30_IQ.js`, `31_IQ.js`, `32_IQ.js`, and `33_IQ.js` apply ternaries to real scenarios: environment-based base URLs, CI headless/headed browser mode, SLA response-time checks, and template-literal output.
+- `34_Nested_Ternary.js` demonstrates a nested ternary with multiple conditions.
 
 Run an operator example with Node.js:
 
@@ -83,6 +89,8 @@ node 04_Chapter_Operator\19_Arithmetic_Op.js
 
 ## Recent changes
 
+- Added ternary operator examples to `04_Chapter_Operator` (`28_Ternary_Op.js` through `34_Nested_Ternary.js`), covering API pass/fail checks, environment-based URLs, CI browser mode, SLA checks, and nested ternaries.
+- Added string concatenation (`27_String.js`) and inequality questions (`26_Questions_0p.js`) to `04_Chapter_Operator`.
 - Added the JavaScript literals chapter (`03_Chapter_JS_Literal`) with number, null, and undefined examples.
 - Added the JavaScript operators chapter (`04_Chapter_Operator`) with arithmetic, assignment, and comparison examples.
 - Added `JavaScript_DOM_Basics.md`, a beginner-friendly DOM guide.

@@ -1,7 +1,6 @@
 //coerced method
 //loosed equality 
 
-
 //Remember === rule fixed it 
 
 console.log("" === 0); //false
