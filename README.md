@@ -72,6 +72,8 @@ JavaScript operator examples:
 - `19_Arithmetic_Op.js` and `21_Arithmatic_Ops` cover arithmetic operators.
 - `20_Assignment_Op.js` covers assignment operators.
 - `22_Comparison_Op.js` covers comparison operators.
+- `23_logical_Op.js` covers logical operators (`&&`, `||`, `!`).
+- `24_Confusion_Op.js` demonstrates equality coercion confusions (`"" === 0`, `"0" === 0`).
 
 Run an operator example with Node.js:
 
