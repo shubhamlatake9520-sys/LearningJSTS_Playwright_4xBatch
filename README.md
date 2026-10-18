@@ -125,7 +125,7 @@ node 06_Chapter_if_else_Statement_Condition.js\46_If.js
 
 - `50_switch.js` maps a day number to a day name using `break`.
 - `51_IQ.js` shows fall-through behavior when `break` is omitted.
-- `52_IQ` demonstrates the `default` case for unmatched values.
+- `52_IQ.js` demonstrates the `default` case for unmatched values.
 - `53_API_Switch.js` maps HTTP response codes to status messages.
 - `54_Switch_group.js` groups multiple cases for browser families.
 - `55_IQ.js` selects a fruit by name.
