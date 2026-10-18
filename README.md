@@ -80,6 +80,8 @@ JavaScript operator examples:
 - `29_T_API_Op.js` uses a ternary to derive a PASS/FAIL API test result.
 - `30_IQ.js`, `31_IQ.js`, `32_IQ.js`, and `33_IQ.js` apply ternaries to real scenarios: environment-based base URLs, CI headless/headed browser mode, SLA response-time checks, and template-literal output.
 - `34_Nested_Ternary.js` demonstrates a nested ternary with multiple conditions.
+- `35_IQ.js` and `36_IQ.js` map HTTP status codes and temperatures to labels using chained ternaries.
+- `37_Typeof.js` shows the `typeof` operator for strings and numbers.
 
 Run an operator example with Node.js:
 
@@ -87,8 +89,109 @@ Run an operator example with Node.js:
 node 04_Chapter_Operator\19_Arithmetic_Op.js
 ```
 
+### `05_Chapter_Js_Incre_Decre.js`
+
+Increment and decrement operator examples:
+
+- `38_ID_Op.js` demonstrates the prefix increment (`++a`).
+- `39_ID_Op.js` demonstrates the postfix increment (`a++`).
+- `40_IQ.js`, `41_IQ.js`, and `42_IQ.js` are interview-style exercises evaluating expressions that mix prefix and postfix increments.
+- `43_Decrement.js` demonstrates the prefix decrement (`--a`).
+
+Run an increment/decrement example with Node.js:
+
+```powershell
+node 05_Chapter_Js_Incre_Decre.js\38_ID_Op.js
+```
+
+### `06_Chapter_if_else_Statement_Condition.js`
+
+Conditional statement examples:
+
+- `46_If.js` introduces a basic `if`/`else` on an age check.
+- `47_IF_Else_Nested.js` demonstrates a nested `if`/`else`.
+- `48_To_ifelse.js` compares a ternary with an equivalent `if`/`else`.
+- `49_Multiple.js` is a multi-branch grading program that converts a score into a letter grade using an `else if` ladder.
+
+Run a conditional example with Node.js:
+
+```powershell
+node 06_Chapter_if_else_Statement_Condition.js\46_If.js
+```
+
+### `07_Chapter_Switch`
+
+`switch` statement examples:
+
+- `50_switch.js` maps a day number to a day name using `break`.
+- `51_IQ.js` shows fall-through behavior when `break` is omitted.
+- `52_IQ` demonstrates the `default` case for unmatched values.
+- `53_API_Switch.js` maps HTTP response codes to status messages.
+- `54_Switch_group.js` groups multiple cases for browser families.
+- `55_IQ.js` selects a fruit by name.
+- `56_IQ.js` uses `switch (true)` to grade a test score.
+- `57_IQ.js` shows block-scoped declarations inside cases.
+- `58_IQ.js` explores `switch` matching and type coercion (`0` vs `false`).
+
+Run a switch example with Node.js:
+
+```powershell
+node 07_Chapter_Switch\50_switch.js
+```
+
+### `08_Chapter_Userinput.js`
+
+Reading user input from the terminal:
+
+- `61_prompt.js` reads a number using the `prompt-sync` package.
+- `62_FS_readin.js` reads input from standard input with `fs.readFileSync`.
+
+The `prompt-sync` dependency comes from `package.json`, so install it first:
+
+```powershell
+npm install
+node 08_Chapter_Userinput.js\61_prompt.js
+```
+
+### `09_Chapter_Loops`
+
+`for` loop examples:
+
+- `64_for_loop.js` and `65_for_loop.js` iterate from `0` to `9`.
+- `66_IQ.js` starts the loop from `5`.
+- `67_IQ.js` iterates while a variable is less than or equal to `10`.
+- `68_IQ.js` shows a loop whose condition is never true, so the body never runs.
+- `69_IQ.js` combines a `for` loop with an `if`/`else` inside the body.
+
+Run a loop example with Node.js:
+
+```powershell
+node 09_Chapter_Loops\64_for_loop.js
+```
+
+### `10_Chapter_Loop_While`
+
+`while` loop examples:
+
+- `70_Loop_While.js` contrasts a `while` loop with a `for` loop.
+- `71_IQ.js` models a retry loop limited to three attempts.
+- `72_IQ.js` counts up to a limit with `while`.
+
+Run a while loop example with Node.js:
+
+```powershell
+node 10_Chapter_Loop_While\70_Loop_While.js
+```
+
 ## Recent changes
 
+- Added the increment/decrement chapter (`05_Chapter_Js_Incre_Decre.js`) with prefix/postfix increment and decrement examples.
+- Added the if/else chapter (`06_Chapter_if_else_Statement_Condition.js`) with a basic conditional, a nested conditional, a ternary comparison, and a multi-branch grading program.
+- Added the switch chapter (`07_Chapter_Switch`) covering `break`, fall-through, `default`, grouped cases, `switch (true)`, and API status mapping.
+- Added the user input chapter (`08_Chapter_Userinput.js`) using `prompt-sync` and `fs.readFileSync`.
+- Added the `for` loop chapter (`09_Chapter_Loops`) and the `while` loop chapter (`10_Chapter_Loop_While`).
+- Added `35_IQ.js`, `36_IQ.js`, and `37_Typeof.js` to `04_Chapter_Operator`.
+- Added `package.json` and `package-lock.json` with the `prompt-sync` dependency.
 - Added ternary operator examples to `04_Chapter_Operator` (`28_Ternary_Op.js` through `34_Nested_Ternary.js`), covering API pass/fail checks, environment-based URLs, CI browser mode, SLA checks, and nested ternaries.
 - Added string concatenation (`27_String.js`) and inequality questions (`26_Questions_0p.js`) to `04_Chapter_Operator`.
 - Added the JavaScript literals chapter (`03_Chapter_JS_Literal`) with number, null, and undefined examples.
