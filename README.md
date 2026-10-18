@@ -183,8 +183,24 @@ Run a while loop example with Node.js:
 node 10_Chapter_Loop_While\70_Loop_While.js
 ```
 
+### `11_Chapter_loops_Dowhile`
+
+`do...while` and nested loop examples:
+
+- `74_retry_dowhile.js` models a retry loop that runs its body first, then checks the condition.
+- `75_IQ.js` contrasts a `do...while` loop with a `while` loop, showing the body always runs at least once.
+- `76_Nested_loops.js` demonstrates a nested `for` loop.
+- `77_IQ.js` shows a `do...while` body executing once even when the condition is false.
+
+Run a `do...while` example with Node.js:
+
+```powershell
+node 11_Chapter_loops_Dowhile\74_retry_dowhile.js
+```
+
 ## Recent changes
 
+- Added the `do...while` chapter (`11_Chapter_loops_Dowhile`) with retry, while-vs-do-while, nested loop, and single-execution examples.
 - Added the increment/decrement chapter (`05_Chapter_Js_Incre_Decre.js`) with prefix/postfix increment and decrement examples.
 - Added the if/else chapter (`06_Chapter_if_else_Statement_Condition.js`) with a basic conditional, a nested conditional, a ternary comparison, and a multi-branch grading program.
 - Added the switch chapter (`07_Chapter_Switch`) covering `break`, fall-through, `default`, grouped cases, `switch (true)`, and API status mapping.
