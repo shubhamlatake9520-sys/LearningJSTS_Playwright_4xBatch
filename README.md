@@ -198,8 +198,29 @@ Run a `do...while` example with Node.js:
 node 11_Chapter_loops_Dowhile\74_retry_dowhile.js
 ```
 
+### `12_Chapter_Array`
+
+Array examples:
+
+- `78_Array.js` reads elements by index and with `at(-1)`, plus `length`.
+- `79_array.js` and `80_array.js` contrast an empty array with a populated one and show the `length` property.
+- `81_Array.js` defines a test-results array and a mixed-type array.
+- `82_Create.js` creates arrays with `new Array()` and `Array.of()`, including array sizing versus values.
+- `83_Access_Modify.js` accesses elements (including negative `at()` indexes) and modifies them in place.
+- `84_Adding_remove.js` adds and removes elements with `push`, `pop`, `unshift`, `shift`, and `splice`.
+- `85.Array.js` removes the first and last browser entries and logs the removed value.
+- `86_Searching.js` searches arrays with `indexOf`, `lastIndexOf`, and `includes`.
+- `87_find.js` finds elements with `find`, `findIndex`, `findLast`, and `findLastIndex`.
+
+Run an array example with Node.js:
+
+```powershell
+node 12_Chapter_Array\78_Array.js
+```
+
 ## Recent changes
 
+- Added the array chapter (`12_Chapter_Array`) covering access, creation, modification, add/remove methods, searching, and find methods.
 - Added the `do...while` chapter (`11_Chapter_loops_Dowhile`) with retry, while-vs-do-while, nested loop, and single-execution examples.
 - Added the increment/decrement chapter (`05_Chapter_Js_Incre_Decre.js`) with prefix/postfix increment and decrement examples.
 - Added the if/else chapter (`06_Chapter_if_else_Statement_Condition.js`) with a basic conditional, a nested conditional, a ternary comparison, and a multi-branch grading program.
