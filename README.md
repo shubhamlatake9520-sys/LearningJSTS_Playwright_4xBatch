@@ -211,6 +211,19 @@ Array examples:
 - `85.Array.js` removes the first and last browser entries and logs the removed value.
 - `86_Searching.js` searches arrays with `indexOf`, `lastIndexOf`, and `includes`.
 - `87_find.js` finds elements with `find`, `findIndex`, `findLast`, and `findLastIndex`.
+- `88_Iterate.js` iterates arrays with `for`, `for...of`, `forEach`, `entries()`, and `for...in`.
+- `90_Array_Sorting.js` sorts fruit names alphabetically with the default `sort()`.
+- `91_Array_Sorting.js` shows the default lexicographic sort on numbers.
+- `92_Lexicography_Sorting.md` explains lexicographic order and why default sorting puts `10` before `2`.
+- `93_Array_Normal_Sorting.js` sorts numbers numerically with a comparator, ascending and descending.
+- `95_Array_Concat.js` combines arrays with `concat()` and the spread operator.
+- `96_Transformation.js` maps scores to Pass/Fail with `map()`.
+- `97_IQ_Array_Map_Filter.js` chains `filter()` and `map()` to list failed test cases.
+- `98_Array_Copy.js` copies arrays with spread, `slice()`, and a `structuredClone()` deep copy.
+- `99_aaray_copyMethod.md` compares assignment, shallow copies, and deep copies.
+- `100_Array_Destruction.js` destructures an array into variables.
+- `101_Array_Desconstruct.js` uses the rest pattern and skips elements while destructuring.
+- `102_Swapping.js` swaps two variables using destructuring.
 
 Run an array example with Node.js:
 
@@ -220,6 +233,7 @@ node 12_Chapter_Array\78_Array.js
 
 ## Recent changes
 
+- Extended the array chapter (`12_Chapter_Array`) with iteration, sorting, concat, map/filter, copy methods, and destructuring examples.
 - Added the array chapter (`12_Chapter_Array`) covering access, creation, modification, add/remove methods, searching, and find methods.
 - Added the `do...while` chapter (`11_Chapter_loops_Dowhile`) with retry, while-vs-do-while, nested loop, and single-execution examples.
 - Added the increment/decrement chapter (`05_Chapter_Js_Incre_Decre.js`) with prefix/postfix increment and decrement examples.
