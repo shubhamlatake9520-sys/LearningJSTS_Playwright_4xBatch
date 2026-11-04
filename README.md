@@ -231,8 +231,31 @@ Run an array example with Node.js:
 node 12_Chapter_Array\78_Array.js
 ```
 
+### `13_Chapter_Function`
+
+Function examples:
+
+- `103_function.js` defines and calls a basic function.
+- `104_type1.js` shows a no-parameter function with no return value, called multiple times.
+- `105_Type2.js` returns a value from a function and stores it in a variable.
+- `106_Type3.js` passes arguments to a function with a parameter.
+- `107_Type4.js` uses parameters and a return value to sum two numbers.
+- `108_Template_Litral.js` returns a template literal that embeds a name with `${}`.
+- `109_Function_Exp.js` assigns an anonymous function to a variable (function expression).
+- `110_Function_Arrow.js` compares a function declaration, a function expression, and an arrow function.
+- `111_Arrow_Ex.js` contrasts a function declaration with a single-line arrow function.
+- `112_Arrow_Multiple.js` shows a multi-line arrow function returning Pass/Fail.
+- `113_Arrow.ex.js` validates HTTP status codes with a pass/fail check.
+
+Run a function example with Node.js:
+
+```powershell
+node 13_Chapter_Function\103_function.js
+```
+
 ## Recent changes
 
+- Added the function chapter (`13_Chapter_Function`) covering function types, template literals, function expressions, and arrow functions.
 - Extended the array chapter (`12_Chapter_Array`) with iteration, sorting, concat, map/filter, copy methods, and destructuring examples.
 - Added the array chapter (`12_Chapter_Array`) covering access, creation, modification, add/remove methods, searching, and find methods.
 - Added the `do...while` chapter (`11_Chapter_loops_Dowhile`) with retry, while-vs-do-while, nested loop, and single-execution examples.
