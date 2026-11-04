@@ -25,7 +25,4 @@ switch(day){
         console.log("Sun");
         break;
 
-
-
-
 }

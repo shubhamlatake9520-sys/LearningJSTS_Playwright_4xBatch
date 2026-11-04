@@ -9,7 +9,6 @@ switch(day){
     case 2:
         console.log("Tuesday");
 
-
     case 3:
         console.log("wend");
         

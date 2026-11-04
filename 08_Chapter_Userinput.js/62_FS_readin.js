@@ -5,4 +5,4 @@ console.log("Hi", data);
 // In the terminal:
 // Type 15
 // Press Enter
-// Press Ctrl+D
+// Press Ctrl+C

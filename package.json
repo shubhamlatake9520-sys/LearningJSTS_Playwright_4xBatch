@@ -11,13 +11,10 @@
     "url": "git+https://github.com/shubhamlatake9520-sys/LearningJSTS_Playwright_4xBatch.git"
   },
   "license": "ISC",
-  "author": "",
+  "author": "Shubham",
   "type": "commonjs",
   "main": "05_Chapter_Js_Incre_Decre.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "prompt-sync": "^4.2.0"
   }
 }

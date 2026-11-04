@@ -5,6 +5,6 @@ case false:
     console.log("false matched");
     break;
     case 0:
-    console.log("0 Matched ");
+    console.log("0 Matched");
     break;
 }
