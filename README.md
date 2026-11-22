@@ -246,6 +246,11 @@ Function examples:
 - `111_Arrow_Ex.js` contrasts a function declaration with a single-line arrow function.
 - `112_Arrow_Multiple.js` shows a multi-line arrow function returning Pass/Fail.
 - `113_Arrow.ex.js` validates HTTP status codes with a pass/fail check.
+- `114_Real_Function.js` compares function declarations and function-expression/arrow-function approaches for validating status codes.
+- `115_Function.js` demonstrates immediately invoked function expressions (IIFE) with regular and arrow functions.
+- `116_spread_as_argu_fun.js` uses rest parameters and the spread operator to check response codes.
+- `117_function_return.js` maps HTTP status codes to success, client-error, server-error, or unknown labels.
+- `118_Return_function.js` demonstrates functions that log messages without returning a value.
 
 Run a function example with Node.js:
 
@@ -253,8 +258,25 @@ Run a function example with Node.js:
 node 13_Chapter_Function\103_function.js
 ```
 
+### `14_Chapter_Var_let_const_hoisting_TDZ`
+
+Examples covering variable declarations and scope:
+
+- `119_Var_let.js` introduces `var` and `let`, function scope, block scope, and hoisting concepts.
+- `120_Var_let_const.js` compares `var`, `let`, and `const` declarations in the same examples.
+- `121_Let.js` demonstrates the block-scoped behavior of `let`.
+- `122_Const.js` demonstrates declaration and use of a `const` value.
+
+Run a variable-scope example with Node.js:
+
+```powershell
+node 14_Chapter_Var_let_const_hoisting_TDZ\122_Const.js
+```
+
 ## Recent changes
 
+- Added `114_Real_Function.js` through `118_Return_function.js` covering status validation, IIFE patterns, rest/spread arguments, status mapping, and void-style logging functions.
+- Added `14_Chapter_Var_let_const_hoisting_TDZ` with examples for `var`, `let`, `const`, scope, and hoisting behavior.
 - Added the function chapter (`13_Chapter_Function`) covering function types, template literals, function expressions, and arrow functions.
 - Extended the array chapter (`12_Chapter_Array`) with iteration, sorting, concat, map/filter, copy methods, and destructuring examples.
 - Added the array chapter (`12_Chapter_Array`) covering access, creation, modification, add/remove methods, searching, and find methods.
